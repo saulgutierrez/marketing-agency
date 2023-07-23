@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Estilos CSS Libreria Swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <title>MarketD Landing Page</title>
+</head>
+<body>
+    <!-- Seccion Inicio -->
+    <section class="inicio">
+        <header>
+            <a href="#" class="logo"><ion-icon name="earth-sharp"></ion-icon> MarketD</a>
+            <div class="menuToggle" onclick="toggleMenu()"></div>
+            <ul class="nav">
+                <li><a href="#" onclick="toggleMenu()">Inicio</a></li>
+                <li><a href="#acercaDe" onclick="toggleMenu()">Acerca de</a></li>
+                <li><a href="#servicios" onclick="toggleMenu()">Servicios</a></li>
+                <li><a href="#testimonios" onclick="toggleMenu()">Testimonios</a></li>
+                <li><a href="#contacto" onclick="toggleMenu()">Contacto</a></li>
+                <li><a href="#" class="btnDarkMode" onclick="cambiarIcono(), toggleMenu()"><ion-icon id="darkmode" name="moon"></ion-icon></a></li>
+            </ul>
+        </header>
+        <div class="contenido">
+            <div class="texto">
+                <h2>Transforma tu <span>negocio</span><br>con una estrategia <span>digital</span></h2>
+                <a href="#" class="boton">Empieza ahora</a>
+            </div>
+            <div class="imgBox">
+                <img src="1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Fin Seccion Inicio -->
+
+    <!-- Seccion Acerca de -->
+    <section class="acercaDe" id="acercaDe">
+        <div class="imgBox">
+            <img src="2.jpg" alt="">
+        </div>
+        <div class="texto">
+            <h2 class="subtitulo">Acerca de nuestra <span>agencia</span></h2>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quod, totam obcaecati quo animi eligendi odio facere doloremque, ad aut omnis? Officia deleniti enim reiciendis voluptatem adipisci a facilis aut. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis alias, repudiandae laboriosam iure earum recusandae amet voluptatum provident facere laborum!</p>
+            <a href="#" class="boton">Conoce más</a>
+        </div>
+    </section>
+    <!-- Fin Seccion Acerca de -->
+
+    <!-- Seccion Servicios -->
+    <section class="servicios" id="servicios">
+        <div class="contenido">
+            <h2 class="subtitulo">Conoce nuestros <span>servicios</span></h2>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium ipsum id quia, harum odit itaque natus pariatur eos magni maiores sapiente facilis iure ullam iste officiis sequi eum doloremque.</p>
+            <a href="#" class="boton">Ver portafolio</a>
+        </div>
+        <div class="items">
+            <div class="item">
+                <div class="icono">
+                    <ion-icon name="code-slash-sharp"></ion-icon>
+                </div>
+                <div class="texto">
+                    <h2>Diseño de Sitios Web</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quos?</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <ion-icon name="people-circle-sharp"></ion-icon>
+                </div>
+                <div class="texto">
+                    <h2>Gestión de Redes Sociales</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quos?</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <ion-icon name="analytics-sharp"></ion-icon>
+                </div>
+                <div class="texto">
+                    <h2>Estrategias de SEO</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quos?</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <ion-icon name="stats-chart-sharp"></ion-icon>
+                </div>
+                <div class="texto">
+                    <h2>Publicidad en línea</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quos?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fin Seccion Servicios -->
+
+    <!-- Seccion Testimonios -->
+    <section class="testimonios" id="testimonios">
+        <div class="texto">
+            <h2 class="subtitulo">Testimonios de nuestros <span>clientes</span></h2>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                        <img src="3.jpg" alt="">
+                    </div>
+                    <div class="texto">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos a beatae officiis fugit harum totam nostrum delectus repellendus unde sed.</p>
+                        <h3>John Doe</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                        <img src="4.jpg" alt="">
+                    </div>
+                    <div class="texto">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos a beatae officiis fugit harum totam nostrum delectus repellendus unde sed.</p>
+                        <h3>Jane Doe</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                        <img src="5.jpg" alt="">
+                    </div>
+                    <div class="texto">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos a beatae officiis fugit harum totam nostrum delectus repellendus unde sed.</p>
+                        <h3>John Doe</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <!-- Fin Seccion Testimonios -->
+
+    <!-- Seccion Contacto -->
+    <section class="contacto" id="contacto">
+        <div class="formulario">
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="inputBox">
+                    <input type="email" placeholder="Correo electrónico">
+                </div>
+                <div class="inputBox">
+                    <textarea name="" id="" cols="20" rows="5" placeholder="Mensaje"></textarea>
+                </div>
+                <input type="submit" class="boton" value="Enviar Mensaje">
+            </form>
+        </div>
+        <div class="contenido">
+            <h2 class="subtitulo">Contacta con <span>nosotros</span> para impulsar tu <span>negocio</span></h2>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse laborum quod aut corrupti id! Alias, omnis modi! Voluptatem non laborum cumque ex quasi molestias officiis, earum aut illum animi.</p>
+        </div>
+    </section>
+    <!-- Fin Seccion Contacto -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="cuadrado"></div>
+        <div class="cuadrado"></div>
+        <div class="cuadrado"></div>
+        <div class="cuadrado"></div>
+        <div class="enlaces">
+            <div class="box">
+                <a href="#" class="logo"><ion-icon name="earth-sharp"></ion-icon> MarketD</a>
+            </div>
+            <div class="box">
+                <h3>Servicios</h3>
+                <ul>
+                    <li><a href="#">Diseño de Sitios Web</a></li>
+                    <li><a href="#">Gestión de Redes Sociales</a></li>
+                    <li><a href="#">Estrategias de SEO</a></li>
+                    <li><a href="#">Publicidad en línea</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Acerca de</h3>
+                <ul>
+                    <li><a href="#">Nuestra Agencia</a></li>
+                    <li><a href="#">Equipo</a></li>
+                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Contacto</h3>
+                <ul class="rrss">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2023 Saúl Gutiérrez - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- Fin Footer -->
+
+    <!-- Script Libreria IonicIcons (Iconos) -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Script Libreria Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Script index.js -->
+    <script src="index.js"></script>
+</body>
+</html>
