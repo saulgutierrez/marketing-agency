@@ -750,14 +750,30 @@ body.darkMode .contacto .formulario {
 
     footer .enlaces .box {
         margin-bottom: 25px;
-
     }
 }
 
 /* -- Celulares -- */
 @media only screen and (max-width: 600px) {
+    .inicio .contenido .texto h2 {
+        width: 100%;
+        max-width: 600px;
+    }
+
     .acercaDe {
         padding: 10px 0px 50px 0px;
+    }
+
+    .acercaDe .imgBox {
+        width: 80%;
+        max-width: 560px;
+        height: 300px;
+    }
+
+    .acercaDe .imgBox::before {
+        width: 100%;
+        max-width: 600px;
+        height: 300px;
     }
 
     .servicios .items {
@@ -776,6 +792,74 @@ body.darkMode .contacto .formulario {
     }
 
     .contacto .formulario {
-        width: 530px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .inicio .contenido .texto {
+        width: 90%;
+    }
+
+    .inicio .contenido .texto h2 {
+        width: 90%;
+    }
+
+    .acercaDe .imgBox {
+        width: 80%;
+        max-width: 400px;
+        height: 300px;
+    }
+
+    .servicios .contenido {
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .subtitulo {
+        font-size: 1.6em;
+        width: 100%;
+    }
+
+    .parrafo {
+        width: 90%;
+        max-width: 400px;
+        text-align: justify;
+        margin-left: 15px;
+    }
+
+    .testimonios .texto h2 .subtitulo {
+        font-size: 1em;
+    }
+
+    .testimonios .swiper .swiper-wrapper .swiper-slide .imgBox {
+        position: relative;
+        width: 150px;
+        height: 180px;
+        margin-top: 30px;   
+    }
+    
+    .testimonios .swiper .swiper-wrapper .swiper-slide .imgBox::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        height: 180px;
+        border: 3px solid #2469a0;
+        border-bottom-left-radius: 100px;
+    }
+
+    .testimonios .swiper .swiper-wrapper .swiper-slide .texto {
+        width: 100%;
+        text-align: justify;
+        padding-top: 50px;
+    }
+
+    footer .cuadrado:nth-child(1),
+    footer .cuadrado:nth-child(2),
+    footer .cuadrado:nth-child(3),
+    footer .cuadrado:nth-child(4) {
+        display: none;
     }
 }
