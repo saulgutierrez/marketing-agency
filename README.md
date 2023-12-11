@@ -8,3 +8,5 @@ Technologies used: <br>
 <li> Swipper.js </li>
 <li> Ionic Icons </li>
 <li> Google Fonts </li>
+
+![image](https://github.com/saulgutierrez/marketing-agency/assets/62368834/35d2b064-097a-4b56-b268-4eeb8480c54d)
